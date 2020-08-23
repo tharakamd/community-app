@@ -668,7 +668,7 @@
                                         {{transaction.officeName}}
                                     </td>
                                     <td class="pointer" data-ng-click="routeTo(loandetails.id,transaction.id,transaction.type.id)">
-                                        {{transaction.date | DateFormat}}
+                                        {{transaction.date | date:'yyyy/MM/dd'}}
                                     </td>
                                     <td class="pointer" data-ng-click="routeTo(loandetails.id,transaction.id,transaction.type.id)">
                                         {{transaction.type.value}}
